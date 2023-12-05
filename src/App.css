@@ -24,6 +24,42 @@
   color: white;
 }
 
+/*
+body{
+background: liniar-gradien(
+  to right,
+  pink 0%
+  pink 50%
+  blue 50%
+  blue 100%
+
+)
+}
+*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  height: 100vh; /* Full height */
+  display: flex; /* To create two columns */
+}
+
+.left-half {
+  background-color: rgb(31, 222, 236); /* Color of the left half */
+  width: 50%; /* Half the width */
+}
+
+.right-half {
+  background-color: rgb(104, 250, 136); /* Color of the right half */
+  width: 50%; /* Half the width */
+}
+
+
+
+
 .App-link {
   color: #61dafb;
 }
